@@ -1,0 +1,9 @@
+#include <pthread.h>
+#include <stdlib.h>
+#include <iostream>
+#include <chrono>
+#include <thread>
+using namespace std;
+
+void* thread_function(void*) {
+	
